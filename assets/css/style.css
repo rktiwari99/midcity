@@ -33,7 +33,7 @@
 23. single Page css
 24. Sidebar css
 25. Pagination css	
-
+26. Typeriter Animation
 */
 
 
@@ -3300,5 +3300,10 @@ header.header.single-head .navbar.in {
 }
 
 
+/* Typeriter Animation */
 
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
 
