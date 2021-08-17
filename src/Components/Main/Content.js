@@ -18,10 +18,9 @@ export default function Content() {
                 <div className="row">
                   <div className="col-xl-6">
                     <div className="hero-content">
-                      <span className="hero-p1">Get Business Service</span>
-                      <h2>
-                        We provided for
-                        <br /> <span>Business</span>
+                      <span className="hero-p1">Get Reliable Service</span>
+                      <h2 className="typewrite anim-typewriter" data-period="2000" data-type='["We provided for Business"]'>
+                        <br /> <span className="typewrite anim-typewriter" data-period="2000" data-type='[""]'></span>
                       </h2>
                       <p>
                         Differentiate Ourselves from all the other australian vc
@@ -50,10 +49,9 @@ export default function Content() {
                 <div className="row">
                   <div className="col-xl-6">
                     <div className="hero-content">
-                      <span className="hero-p1">Get Business Service</span>
-                      <h2>
-                        We provided for
-                        <br /> <span>Business</span>
+                      <span className="hero-p1">Get Reliable Service</span>
+                      <h2 className="typewrite anim-typewriter" data-period="2000" data-type='["We provided for Marketing"]'>
+                        <br /> <span className="typewrite anim-typewriter" data-period="2000" data-type='[""]'></span>
                       </h2>
                       <p>
                         Differentiate Ourselves from all the other australian vc
@@ -82,10 +80,9 @@ export default function Content() {
                 <div className="row">
                   <div className="col-xl-6">
                     <div className="hero-content">
-                      <span className="hero-p1">Get Business Service</span>
-                      <h2>
-                        We provided for
-                        <br /> <span>Business</span>
+                      <span className="hero-p1" >Get Reliable Service</span>
+                      <h2 className="typewrite anim-typewriter" data-period="2000" data-type='["We provided for Trust"]'>
+                        <br /> <span className="typewrite anim-typewriter" data-period="2000" data-type='[""]'></span>
                       </h2>
                       <p>
                         Differentiate Ourselves from all the other australian vc
