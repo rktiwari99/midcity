@@ -231,25 +231,25 @@ export default function Blog() {
               </div>
               <div className="pagination-wrapper">
                 <div className="pagination">
-                  <Link className="prev page-numbers" to="javascript:;">
+                  <Link className="prev page-numbers" to="#">
                     prev
                   </Link>
                   <span aria-current="page" className="page-numbers current">
                     1
                   </span>
-                  <Link className="page-numbers" to="javascript:;">
+                  <Link className="page-numbers" to="#">
                     2
                   </Link>
-                  <Link className="page-numbers" to="javascript:;">
+                  <Link className="page-numbers" to="#">
                     3
                   </Link>
-                  <Link className="page-numbers" to="javascript:;">
+                  <Link className="page-numbers" to="#">
                     4
                   </Link>
-                  <Link className="page-numbers" to="javascript:;">
+                  <Link className="page-numbers" to="#">
                     5
                   </Link>
-                  <Link className="next page-numbers" to="javascript:;">
+                  <Link className="next page-numbers" to="#">
                     next
                   </Link>
                 </div>

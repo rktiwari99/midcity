@@ -21,7 +21,7 @@ export default function Project() {
           <div className="row">
             <div className="col-xl-8 offset-xl-2">
               <div className="site-title text-center">
-                <span className="hero-p1">// Cases &amp; Projects</span>
+                <span className="hero-p1">Cases &amp; Projects</span>
                 <h2>Create and make dream</h2>
               </div>
             </div>

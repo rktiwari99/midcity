@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
     return (
@@ -11,17 +12,17 @@ export const Footer = () => {
                             <p>
                                 Our Approach to <span>SEO</span> is unique around what we know work as we know does with is verified factor in play.
                             </p>
-                            <a href="#" className="footer-dis">Discover More <i className="ti-arrow-right"></i></a>
+                            <Link to="#" className="footer-dis">Discover More <i className="ti-arrow-right"></i></Link>
                         </div>
                         
                         <div className="footer-widget-box">
                             <h5 className="foo-widget-title">Services</h5>
                             <ul className="foo-list">
-                                <li><a href="#"><span>SEO</span> Small Business</a></li>
-                                <li><a href="#">Enterprise <span>SEO</span></a></li>
-                                <li><a href="#"><span>SEO</span> local Servies</a></li>
-                                <li><a href="#">National <span>SEO</span></a></li>
-                                <li><a href="#">International <span>SEO</span></a></li>
+                                <li><Link to="#"><span>SEO</span> Small Business</Link></li>
+                                <li><Link to="#">Enterprise <span>SEO</span></Link></li>
+                                <li><Link to="#"><span>SEO</span> local Servies</Link></li>
+                                <li><Link to="#">National <span>SEO</span></Link></li>
+                                <li><Link to="#">International <span>SEO</span></Link></li>
                             </ul>
                         </div>
                         
@@ -39,21 +40,21 @@ export const Footer = () => {
                         <div className="footer-widget-box">
                             <h5 className="foo-widget-title">Company</h5>
                             <ul className="foo-list">
-                                <li><a href="#">Our Product</a></li>
-                                <li><a href="#">Doucumentation</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Company</a></li>
-                                <li><a href="#">What we do?</a></li>
+                                <li><Link to="#">Our Product</Link></li>
+                                <li><Link to="#">Doucumentation</Link></li>
+                                <li><Link to="#">Our Services</Link></li>
+                                <li><Link to="#">Company</Link></li>
+                                <li><Link to="#">What we do?</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="copyright">
                         <p>Copyright © 2020. All Rights Reserved.</p>
                         <ul className="footer-social">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+                            <li><Link to="#"><i className="fab fa-facebook-f"></i></Link></li>
+                            <li><Link to="#"><i className="fab fa-instagram"></i></Link></li>
+                            <li><Link to="#"><i className="fab fa-twitter"></i></Link></li>
+                            <li><Link to="#"><i className="fab fa-youtube"></i></Link></li>
                         </ul>
                     </div>
                 </div>
