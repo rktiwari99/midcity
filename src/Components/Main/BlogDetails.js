@@ -39,8 +39,8 @@ export default function BlogDetails() {
                     </li>
                     <li>
                       <div className="single-meta-box single-meta-tags">
-                        <Link to="#">Investment,</Link>
-                        <Link to="#">tips</Link>
+                        <a href="#">Investment,</a>
+                        <a href="#">tips</a>
                       </div>
                     </li>
                     <li>
@@ -115,19 +115,19 @@ export default function BlogDetails() {
                 <div className="single-content-tags">
                   <ul>
                     <li>
-                      <Link to="#">Responsive</Link>
+                      <a href="#">Responsive</a>
                     </li>
                     <li>
-                      <Link to="#">Modern</Link>
+                      <a href="#">Modern</a>
                     </li>
                     <li>
-                      <Link to="#">Corporate</Link>
+                      <a href="#">Corporate</a>
                     </li>
                     <li>
-                      <Link to="#">Business</Link>
+                      <a href="#">Business</a>
                     </li>
                     <li>
-                      <Link to="#">Awesome</Link>
+                      <a href="#">Awesome</a>
                     </li>
                   </ul>
                 </div>
@@ -135,24 +135,24 @@ export default function BlogDetails() {
                   <h5>Share:</h5>
                   <ul className="team-social">
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fab fa-facebook-f" />
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fab fa-twitter" />
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-envelope" />
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fab fa-linkedin-in" />
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -171,10 +171,10 @@ export default function BlogDetails() {
                               <h6>
                                 Diego Fou <span>jan 06 2019</span>
                               </h6>
-                              <Link to="#">
+                              <a href="#">
                                 <i className="fas fa-reply-all" />
                                 Reply
-                              </Link>
+                              </a>
                             </div>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur
@@ -196,10 +196,10 @@ export default function BlogDetails() {
                               <h6>
                                 Fiego Fou <span>jan 06 2019</span>
                               </h6>
-                              <Link to="#">
+                              <a href="#">
                                 <i className="fas fa-reply-all" />
                                 Reply
-                              </Link>
+                              </a>
                             </div>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur
@@ -221,10 +221,10 @@ export default function BlogDetails() {
                               <h6>
                                 Hiego Fou <span>jan 06 2019</span>
                               </h6>
-                              <Link to="#">
+                              <a href="#">
                                 <i className="fas fa-reply-all" />
                                 Reply
-                              </Link>
+                              </a>
                             </div>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur
@@ -352,40 +352,40 @@ export default function BlogDetails() {
                   <h4 className="widget-title">Categories</h4>
                   <ul>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-tags" />
                         Success Stories
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-tags" />
                         Gym Personal Trainer
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-tags" />
                         Workout
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-tags" />
                         Excercies
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-tags" />
                         Healthy Living
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="#">
                         <i className="fas fa-tags" />
                         Nutrition &amp; Weight Loss
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -394,22 +394,22 @@ export default function BlogDetails() {
                   <h4 className="widget-title">Tags</h4>
                   <ul>
                     <li>
-                      <Link to="#">Graphic Design</Link>
+                      <a href="#">Graphic Design</a>
                     </li>
                     <li>
-                      <Link to="#">Web Design</Link>
+                      <a href="#">Web Design</a>
                     </li>
                     <li>
-                      <Link to="#">HTML</Link>
+                      <a href="#">HTML</a>
                     </li>
                     <li>
-                      <Link to="#">Graphic Design</Link>
+                      <a href="#">Graphic Design</a>
                     </li>
                     <li>
-                      <Link to="#">Graphic Design</Link>
+                      <a href="#">Graphic Design</a>
                     </li>
                     <li>
-                      <Link to="#">Web Design</Link>
+                      <a href="#">Web Design</a>
                     </li>
                   </ul>
                 </div>

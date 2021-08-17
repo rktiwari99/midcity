@@ -256,7 +256,7 @@ export default function Blog() {
               </div>
             </div>
             <div className="col-xl-4">
-              <Linkside className="sidebar">
+              <aside className="sidebar">
                 {/*Search*/}
                 <div className="sidebar-widget search">
                   <form>
@@ -392,7 +392,7 @@ export default function Blog() {
                     </li>
                   </ul>
                 </div>
-              </Linkside>
+              </aside>
             </div>
           </div>
         </div>
