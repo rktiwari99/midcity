@@ -35,22 +35,22 @@ export default function Header() {
                             <li className="nav-item"><Link className="nav-link" to="#">home OnePage</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/service">Service</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/midcity/about">About</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/midcity/service">Service</Link></li>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link" to="/project">Project <i className="caret ti-angle-down" /></Link>
+                            <Link className="nav-link" to="/midcity/project">Project <i className="caret ti-angle-down" /></Link>
                             <ul className="navbar-nav">
-                                <li className="nav-item"><Link className="nav-link" to="/projectdetails">Project Details</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/midcity/projectdetails">Project Details</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item"><Link className="nav-link" to="/team">Team</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/midcity/team">Team</Link></li>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link" to="/blog">Blog <i className="caret ti-angle-down" /></Link>
+                            <Link className="nav-link" to="/midcity/blog">Blog <i className="caret ti-angle-down" /></Link>
                             <ul className="navbar-nav">
-                                <li className="nav-item"><Link className="nav-link" to="/blogdetails">Blog Details</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/midcity/blogdetails">Blog Details</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/midcity/contact">Contact</Link></li>
                         </ul>
                         <div className="header-serarch-btn">
                         <i className="fas fa-search" />

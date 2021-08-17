@@ -25,28 +25,28 @@ function App() {
           <Route exact path="/midcity">
             <Content/>
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/midcity/about">
             <About />
           </Route>
-          <Route exact path="/blog">
+          <Route exact path="/midcity/blog">
             <Blog />
           </Route>
-          <Route path="/contact">
+          <Route path="/midcity/contact">
             <Contact />
           </Route>
-          <Route path="/blogdetails">
+          <Route path="/midcity/blogdetails">
             <BlogDetails />
           </Route>
-          <Route path="/service">
+          <Route path="/midcity/service">
             <Service />
           </Route>
-          <Route path="/team">
+          <Route path="/midcity/team">
             <Team />
           </Route>
-          <Route path="/project">
+          <Route path="/midcity/project">
             <Project />
           </Route>
-          <Route path="/projectdetails">
+          <Route path="/midcity/projectdetails">
             <ProjectDetails />
           </Route>
         </Switch>
