@@ -19,7 +19,7 @@ export default function Header() {
                     </div>
                     </div>
                     <div className="container">
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/midcity">
                         <img src="assets/img/logo/logo.png" className="logo-display" alt="thumb" />
                         <img src="assets/img/logo/logo.png" className="logo-scrolled" alt="thumb" />
                     </Link>
@@ -27,7 +27,7 @@ export default function Header() {
                     <div className="collapse navbar-collapse justify-content-sm-end">
                         <ul className="navbar-nav navbar-mobile ml-auto">
                         <li className="nav-item dropdown">
-                            <Link className="nav-link" to="/">Home <i className="caret ti-angle-down" /></Link>
+                            <Link className="nav-link" to="/midcity">Home <i className="caret ti-angle-down" /></Link>
                             <ul className="navbar-nav">
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 1</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 2</Link></li>

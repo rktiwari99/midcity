@@ -22,7 +22,7 @@ function App() {
     <Router>
       <Header/>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/midcity">
             <Content/>
           </Route>
           <Route exact path="/about">
