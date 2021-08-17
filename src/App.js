@@ -1,3 +1,4 @@
+import React from 'react'
 import Header from './Components/Include/header';
 import { Footer } from './Components/Include/Footer';
 import Content from './Components/Main/Content';
