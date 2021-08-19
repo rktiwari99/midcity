@@ -28,12 +28,12 @@ export default function Header() {
                         <ul className="navbar-nav navbar-mobile ml-auto">
                         <li className="nav-item dropdown">
                             <Link className="nav-link" to="/midcity">Home <i className="caret ti-angle-down" /></Link>
-                            <ul className="navbar-nav">
+                            {/* <ul className="navbar-nav">
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 1</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 2</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 3</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="#">home OnePage</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
                         <li className="nav-item"><Link className="nav-link" to="/midcity/about">About</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/midcity/service">Service</Link></li>
