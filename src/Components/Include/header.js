@@ -27,7 +27,7 @@ export default function Header() {
                     <div className="collapse navbar-collapse justify-content-sm-end">
                         <ul className="navbar-nav navbar-mobile ml-auto">
                         <li className="nav-item dropdown">
-                            <Link className="nav-link" to="/midcity">Home <i className="caret ti-angle-down" /></Link>
+                            <Link className="nav-link" to="/midcity">Home </Link>
                             {/* <ul className="navbar-nav">
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 1</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="#">home varsion 2</Link></li>
