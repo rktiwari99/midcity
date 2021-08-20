@@ -12,8 +12,8 @@ export default function Header() {
                         <div className="header-top-left">
                         <ul>
                             <li><i className="far fa-clock" />Mon-Fri:9:00am-06-00pm/closed 0n weekends</li>
-                            <li><i className="far fa-envelope-open" />demo@support.com</li>
-                            <li><i className="flaticon-call" />(+123) 456-9989</li>
+                            <li><i className="far fa-envelope-open" />rohittiwari99000@gmail.com</li>
+                            <li><i className="flaticon-call" />(+91) 900-5599-793</li>
                         </ul>
                         </div>
                     </div>
