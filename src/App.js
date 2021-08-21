@@ -25,7 +25,7 @@ const Other = ({ match }) => (
   <React.Fragment>
     <Header/>
       <Route path={`${match.path}`}/>
-      <Route exact path={`${match.path}/midcity/`}>
+      <Route exact path={`${match.path}/midcity`}>
         <Content/>
       </Route>
       <Route exact path={`${match.path}/midcity/about`}>
