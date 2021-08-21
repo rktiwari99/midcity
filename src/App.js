@@ -33,22 +33,22 @@ const Other = ({ match }) => (
       <Route exact path={`${match.path}/midcity/blog1`}>
         <Blog />
       </Route>
-      <Route path={`${match.path}/midcity/contact1`}>
+      <Route exact path={`${match.path}/midcity/contact1`}>
         <Contact />
       </Route>
-      <Route path={`${match.path}/midcity/blogdetails1`}>
+      <Route exact path={`${match.path}/midcity/blogdetails1`}>
         <BlogDetails />
       </Route>
-      <Route path={`${match.path}/midcity/service1`}>
+      <Route exact path={`${match.path}/midcity/service1`}>
         <Service />
       </Route>
-      <Route path={`${match.path}/midcity/team1`}>
+      <Route exact path={`${match.path}/midcity/team1`}>
         <Team />
       </Route>
-      <Route path={`${match.path}/midcity/project1`}>
+      <Route exact path={`${match.path}/midcity/project1`}>
         <Project />
       </Route>
-      <Route path={`${match.path}/midcity/projectdetails1`}>
+      <Route exact path={`${match.path}/midcity/projectdetails1`}>
         <ProjectDetails />
       </Route>
       <Route component={Error1} />
@@ -59,10 +59,10 @@ const Other = ({ match }) => (
 const Admin  = ({ match }) => (
   <React.Fragment>
     <Adheader/>
-      <Route path={`${match.path}/admin`}>
+      <Route exact path={`${match.path}/admin`}>
         <Logedin />
       </Route>
-      <Route path={`${match.path}/dashboard`}>
+      <Route exact path={`${match.path}/dashboard`}>
         <Dashboard />
       </Route>
     <Adfooter/>
