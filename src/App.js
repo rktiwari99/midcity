@@ -24,7 +24,6 @@ import Dashboard from './Components/Admin/Main/Dashboard';
 const Other = ({ match }) => (
   <React.Fragment>
     <Header/>
-      <Route path={`${match.path}`}/>
       <Route exact path={`${match.path}/midcity`}>
         <Content/>
       </Route>
