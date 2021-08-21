@@ -24,34 +24,34 @@ import Dashboard from './Components/Admin/Main/Dashboard';
 const Other = ({ match }) => (
   <React.Fragment>
     <Header/>
-      <Route exact path={`${match.path}/midcity`}>
+      <Router exact path={`${match.path}/midcity`} >
         <Content/>
-      </Route>
-      <Route exact path={`${match.path}/midcity/about`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/about`}>
         <About />
-      </Route>
-      <Route exact path={`${match.path}/midcity/blog1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/blog1`}>
         <Blog />
-      </Route>
-      <Route exact path={`${match.path}/midcity/contact1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/contact1`}>
         <Contact />
-      </Route>
-      <Route exact path={`${match.path}/midcity/blogdetails1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/blogdetails1`}>
         <BlogDetails />
-      </Route>
-      <Route exact path={`${match.path}/midcity/service1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/service1`}>
         <Service />
-      </Route>
-      <Route exact path={`${match.path}/midcity/team1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/team1`}>
         <Team />
-      </Route>
-      <Route exact path={`${match.path}/midcity/project1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/project1`}>
         <Project />
-      </Route>
-      <Route exact path={`${match.path}/midcity/projectdetails1`}>
+      </Router>
+      <Router exact path={`${match.path}/midcity/projectdetails1`}>
         <ProjectDetails />
-      </Route>
-      <Route component={Error1} />
+      </Router>
+      <Router component={Error1} />
     <Footer/>
   </React.Fragment>
 );
@@ -59,12 +59,12 @@ const Other = ({ match }) => (
 const Admin  = ({ match }) => (
   <React.Fragment>
     <Adheader/>
-      <Route exact path={`${match.path}/admin`}>
+      <Router exact path={`${match.path}/admin`}>
         <Logedin />
-      </Route>
-      <Route exact path={`${match.path}/dashboard`}>
+      </Router>
+      <Router exact path={`${match.path}/dashboard`}>
         <Dashboard />
-      </Route>
+      </Router>
     <Adfooter/>
   </React.Fragment>
 );
