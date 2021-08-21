@@ -1,0 +1,8 @@
+/* SmartAdmin 4.5.3 bug hotfix */
+.mod-skin-dark:not(.mod-skin-light) .page-logo {
+	border-bottom: none !important;
+}
+
+.mod-skin-dark:not(.mod-skin-light) .primary-nav {
+	border-top: 1px solid #131313;
+}

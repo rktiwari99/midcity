@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './Components/Include/header';
-import { Footer } from './Components/Include/Footer';
-import Content from './Components/Main/Content';
-import About from './Components/Main/About';
-import Service from './Components/Main/Service';
-import Contact from './Components/Main/Contact';
-import Blog from './Components/Main/Blog';
-import BlogDetails from './Components/Main/BlogDetails';
-import Team from './Components/Main/Team';
-import Project from './Components/Main/Project';
-import ProjectDetails from './Components/Main/ProjectDetails';
+import Header from './Components/User/Include/header';
+import { Footer } from './Components/User/Include/Footer';
+import Content from './Components/User/Main/Content';
+import About from './Components/User/Main/About';
+import Service from './Components/User/Main/Service';
+import Contact from './Components/User/Main/Contact';
+import Blog from './Components/User/Main/Blog';
+import BlogDetails from './Components/User/Main/BlogDetails';
+import Team from './Components/User/Main/Team';
+import Project from './Components/User/Main/Project';
+import ProjectDetails from './Components/User/Main/ProjectDetails';
 import {
   BrowserRouter as Router,
   Switch,
