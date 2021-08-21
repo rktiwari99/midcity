@@ -85,6 +85,7 @@ const App = () => (
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+export default App;
 
 // function App() {
 //   return (
@@ -126,4 +127,3 @@ ReactDOM.render(<App />, rootElement);
 //   );
 // }
 
-// export default App;
