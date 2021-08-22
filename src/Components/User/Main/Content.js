@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 export default function Content() {
   return (
     <div>
+      {/* Preloader */}
+      <div className="se-pre-con" />
+      {/* Preloader */}
       <div className="clearfix" />
       <main className="main home-2">
         {/* Start Hero

@@ -1,5 +1,6 @@
 import React from 'react'
-import { ReactDOM } from 'react-dom';
+import { BrowserRouter as Switch, Route, BrowserRouter } from "react-router-dom";
+// import { ReactDOM } from 'react-dom';
 //  User
 import Header from './Components/User/Include/header';
 import { Footer } from './Components/User/Include/Footer';
@@ -12,8 +13,7 @@ import BlogDetails from './Components/User/Main/BlogDetails';
 import Team from './Components/User/Main/Team';
 import Project from './Components/User/Main/Project';
 import ProjectDetails from './Components/User/Main/ProjectDetails';
-import Error1 from './Components/Error/Error1';
-import { BrowserRouter as Router, Switch, Route, BrowserRouter } from "react-router-dom";
+// import Error1 from './Components/Error/Error1';
 
 //  Admin
 import Adheader from './Components/Admin/Include/Adheader';
@@ -22,18 +22,18 @@ import Logedin from './Components/Admin/Credentials/Logedin';
 import Dashboard from './Components/Admin/Main/Dashboard';
 
 const Other = ({ match }) => (
+  // console.log(match),
   <React.Fragment>
     <Header/>
-      <Route exact path={`${match.path}/midcity`} component={Content}/>
-      <Route exact path={`${match.path}/midcity/about`} component={About}/>
-      <Route exact path={`${match.path}/midcity/blog1`} component={Blog}/>
-      <Route exact path={`${match.path}/midcity/contact1`} component={Contact}/>
-      <Route exact path={`${match.path}/midcity/blogdetails1`} component={BlogDetails}/>
-      <Route exact path={`${match.path}/midcity/service1`} component={Service}/>
-      <Route exact path={`${match.path}/midcity/team1`} component={Team}/>
-      <Route exact path={`${match.path}/midcity/project1`} component={Project}/>
-      <Route exact path={`${match.path}/midcity/projectdetails1`} component={ProjectDetails}/>
-      <Route component={Error1} />
+      <Route exact path={`${match.path}/midcity`} render={ Content }/>
+      <Route exact path={`${match.path}/midcity/about`} render={ About }/>
+      <Route exact path={`${match.path}/midcity/blog1`} render={ Blog }/>
+      <Route exact path={`${match.path}/midcity/contact1`} render={ Contact }/>
+      <Route exact path={`${match.path}/midcity/blogdetails1`} render={ BlogDetails }/>
+      <Route exact path={`${match.path}/midcity/service1`} render={ Service }/>
+      <Route exact path={`${match.path}/midcity/team1`} render={ Team }/>
+      <Route exact path={`${match.path}/midcity/project1`} render={ Project }/>
+      <Route exact path={`${match.path}/midcity/projectdetails1`} render={ ProjectDetails }/>
     <Footer/>
   </React.Fragment>
 );
@@ -41,28 +41,37 @@ const Other = ({ match }) => (
 const Admin  = ({ match }) => (
   <React.Fragment>
     <Adheader/>
-      <Route exact path={`${match.path}/admin`} component={Logedin}/>
-      <Route exact path={`${match.path}/dashboard`} component={Dashboard}/>
+      { match.pathname!=='/admin' && <Adheader/> }
+      <Route exact path={`${match.path}/admin`} render={ Logedin }/>
+      <Route exact path={`${match.path}/dashboard`} render={ Dashboard }/>
+      { match.pathname!=='/admin' && <Adfooter/> }
+      
     <Adfooter/>
   </React.Fragment>
 );
 
+// const Error = ({ match }) => (
+//   <React.Fragment>
+//     <Route render={Error1} />
+//   </React.Fragment>
+// )
 
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/other" component={Other} />
+      <Route path="/midcity" component={Other} />
       <Route path="/admin" component={Admin} />
+      {/* <Route component={Error} /> */}
     </Switch>
   </BrowserRouter>
 );
 
 
 
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
 export default App;
+
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<App />, rootElement);
 
 // function App() {
 //   return (
