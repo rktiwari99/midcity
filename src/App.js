@@ -25,15 +25,15 @@ const Other = ({ match }) => (
   // console.log(match),
   <React.Fragment>
     <Header/>
-      <Route exact path={`${match.path}/midcity`} render={ Content }/>
-      <Route exact path={`${match.path}/midcity/about`} render={ About }/>
-      <Route exact path={`${match.path}/midcity/blog1`} render={ Blog }/>
-      <Route exact path={`${match.path}/midcity/contact1`} render={ Contact }/>
-      <Route exact path={`${match.path}/midcity/blogdetails1`} render={ BlogDetails }/>
-      <Route exact path={`${match.path}/midcity/service1`} render={ Service }/>
-      <Route exact path={`${match.path}/midcity/team1`} render={ Team }/>
-      <Route exact path={`${match.path}/midcity/project1`} render={ Project }/>
-      <Route exact path={`${match.path}/midcity/projectdetails1`} render={ ProjectDetails }/>
+      <Route exact path={`${match.path}`} render={ Content }/>
+      <Route exact path={`${match.path}/about`} render={ About }/>
+      <Route exact path={`${match.path}/blog1`} render={ Blog }/>
+      <Route exact path={`${match.path}/contact1`} render={ Contact }/>
+      <Route exact path={`${match.path}/blogdetails1`} render={ BlogDetails }/>
+      <Route exact path={`${match.path}/service1`} render={ Service }/>
+      <Route exact path={`${match.path}/team1`} render={ Team }/>
+      <Route exact path={`${match.path}/project1`} render={ Project }/>
+      <Route exact path={`${match.path}/projectdetails1`} render={ ProjectDetails }/>
     <Footer/>
   </React.Fragment>
 );
@@ -41,10 +41,11 @@ const Other = ({ match }) => (
 const Admin  = ({ match }) => (
   <React.Fragment>
     <Adheader/>
-      { match.pathname!=='/admin' && <Adheader/> }
-      <Route exact path={`${match.path}/admin`} render={ Logedin }/>
+      {/* { match.pathname!=='/' && <Adheader/> } */}
+      {/* {location.pathname!=='/' ? <Header/>:null} */}
+        <Route exact path={`${match.path}/`} render={ Logedin }/>
+      {/* { match.pathname!=='/' && <Adfooter/> } */}
       <Route exact path={`${match.path}/dashboard`} render={ Dashboard }/>
-      { match.pathname!=='/admin' && <Adfooter/> }
       
     <Adfooter/>
   </React.Fragment>
