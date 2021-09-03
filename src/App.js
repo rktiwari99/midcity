@@ -40,12 +40,13 @@ const Other = ({ match }) => (
 
 const Admin  = ({ match }) => (
   <React.Fragment>
+    <Route exact path={`${match.path}/`} render={ Logedin }/>
+  </React.Fragment>
+);
+const Dash  = ({ match }) => (
+  <React.Fragment>
     <Adheader/>
-      {/* { match.pathname!=='/' && <Adheader/> } */}
-      {/* {location.pathname!=='/' ? <Header/>:null} */}
-        <Route exact path={`${match.path}/`} render={ Logedin }/>
-      {/* { match.pathname!=='/' && <Adfooter/> } */}
-      <Route exact path={`${match.path}/dashboard`} render={ Dashboard }/>
+      <Route exact path={`${match.path}/admin/dashboard`} render={ Dashboard }/>
       
     <Adfooter/>
   </React.Fragment>
@@ -62,6 +63,8 @@ const App = () => (
     <Switch>
       <Route path="/midcity" component={Other} />
       <Route path="/admin" component={Admin} />
+      <Route path="/admin/dashboard" component={Dash} />
+
       {/* <Route component={Error} /> */}
     </Switch>
   </BrowserRouter>
