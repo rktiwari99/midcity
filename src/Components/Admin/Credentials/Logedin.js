@@ -17,8 +17,9 @@ export default function Logedin() {
     <div className="container-fluid p-0">
       {/* login page with video background start*/}
       <div className="auth-bg-video">
-        <video id="bgvid" poster="../assets/images/other-images/coming-soon-bg.jpg" playsInline autoPlay muted loop>
-          <source src="http://admin.pixelstrap.com/creative/assets/video/auth-bg.mp4" type="video/mp4" />
+        <video id="bgvid" poster="../assets/admin/images/other-images/coming-soon-bg.jpg" playsInline autoPlay muted loop>
+          <source src="../assets/admin/video/Tunnel.mp4" type="video/mp4" />
+          {/* <source src="http://admin.pixelstrap.com/creative/assets/admin/video/auth-bg.mp4" type="video/mp4" /> */}
         </video>
         <div className="authentication-box">
           <div className="mt-4">
