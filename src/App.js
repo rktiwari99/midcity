@@ -40,13 +40,13 @@ const Other = ({ match }) => (
 
 const Admin  = ({ match }) => (
   <React.Fragment>
-    <Route exact path={`${match.path}/admin`} render={ Logedin }/>
+    <Route exact path={`${match.path}`} render={ Logedin }/>
   </React.Fragment>
 );
 const Dash  = ({ match }) => (
   <React.Fragment>
     <Adheader/>
-      <Route exact path={`${match.path}/admin/dashboard`} render={ Dashboard }/>
+      <Route exact path={`${match.path}`} render={ Dashboard }/>
       
     <Adfooter/>
   </React.Fragment>
