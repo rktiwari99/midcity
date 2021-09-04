@@ -27,20 +27,20 @@ const Other = ({ match }) => (
     <Header/>
       <Route exact path={`${match.path}`} render={ Content }/>
       <Route exact path={`${match.path}/about`} render={ About }/>
-      <Route exact path={`${match.path}/blog1`} render={ Blog }/>
-      <Route exact path={`${match.path}/contact1`} render={ Contact }/>
-      <Route exact path={`${match.path}/blogdetails1`} render={ BlogDetails }/>
-      <Route exact path={`${match.path}/service1`} render={ Service }/>
-      <Route exact path={`${match.path}/team1`} render={ Team }/>
-      <Route exact path={`${match.path}/project1`} render={ Project }/>
-      <Route exact path={`${match.path}/projectdetails1`} render={ ProjectDetails }/>
+      <Route exact path={`${match.path}/blog`} render={ Blog }/>
+      <Route exact path={`${match.path}/contact`} render={ Contact }/>
+      <Route exact path={`${match.path}/blogdetails`} render={ BlogDetails }/>
+      <Route exact path={`${match.path}/service`} render={ Service }/>
+      <Route exact path={`${match.path}/team`} render={ Team }/>
+      <Route exact path={`${match.path}/project`} render={ Project }/>
+      <Route exact path={`${match.path}/projectdetails`} render={ ProjectDetails }/>
     <Footer/>
   </React.Fragment>
 );
 
 const Admin  = ({ match }) => (
   <React.Fragment>
-    <Route exact path={`${match.path}/`} render={ Logedin }/>
+    <Route exact path={`${match.path}/admin`} render={ Logedin }/>
   </React.Fragment>
 );
 const Dash  = ({ match }) => (
