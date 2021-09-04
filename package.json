@@ -1,6 +1,7 @@
 {
   "name": "midcity",
   "homepage": "https://rktiwari99.github.io/midcity",
+  "admin": "https://rktiwari99.github.io/admin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
