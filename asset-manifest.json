@@ -1,6 +1,6 @@
 {
-  "main.js": "/midcity/static/js/main.a66a380c.chunk.js",
-  "main.js.map": "/midcity/static/js/main.a66a380c.chunk.js.map",
+  "main.js": "/midcity/static/js/main.f2806a14.chunk.js",
+  "main.js.map": "/midcity/static/js/main.f2806a14.chunk.js.map",
   "runtime~main.js": "/midcity/static/js/runtime~main.d834de8c.js",
   "runtime~main.js.map": "/midcity/static/js/runtime~main.d834de8c.js.map",
   "static/js/2.9c73f1e8.chunk.js": "/midcity/static/js/2.9c73f1e8.chunk.js",
@@ -8,6 +8,6 @@
   "static/js/3.d8bb4322.chunk.js": "/midcity/static/js/3.d8bb4322.chunk.js",
   "static/js/3.d8bb4322.chunk.js.map": "/midcity/static/js/3.d8bb4322.chunk.js.map",
   "index.html": "/midcity/index.html",
-  "precache-manifest.bfb76932ea4c1d634ea8a9b0a452d711.js": "/midcity/precache-manifest.bfb76932ea4c1d634ea8a9b0a452d711.js",
+  "precache-manifest.a6859d84f70d7c083c1318f0130bd0fe.js": "/midcity/precache-manifest.a6859d84f70d7c083c1318f0130bd0fe.js",
   "service-worker.js": "/midcity/service-worker.js"
 }
