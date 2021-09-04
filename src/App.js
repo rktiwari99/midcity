@@ -63,7 +63,7 @@ const App = () => (
     <Switch>
       <Route path="/midcity" component={Other} />
       <Route path="/admin" component={Admin} />
-      <Route path="/dashboard" component={Dash} />
+      <Route path="/admin/dashboard" component={Dash} />
 
       {/* <Route component={Error} /> */}
     </Switch>
