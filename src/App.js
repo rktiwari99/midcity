@@ -62,7 +62,7 @@ const App = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/midcity" component={Other} />
-      <Route path="/admin" component={Admin} />
+      <Route path="/midcity/admin" component={Admin} />
       <Route path="/admin/dashboard" component={Dash} />
 
       {/* <Route component={Error} /> */}
