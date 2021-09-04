@@ -59,6 +59,11 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
+            {/* Start Scroll top
+            ============================================= */}
+            <a href="#bdy" id="scrtop" className="smooth-menu"><i className="ti-arrow-up" /></a>
+            {/* End Scroll top*/}
+
         </footer>	
     )
 }

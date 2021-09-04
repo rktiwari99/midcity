@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function Content() {
   return (
     <div>
+      <div class="demo-1"  id="bdy">
       {/* Preloader */}
       <div className="se-pre-con" />
       {/* Preloader */}
@@ -1304,6 +1305,7 @@ export default function Content() {
         {/* End Contact*/}
       </main>
       <div className="clearfix" />
+      </div>
     </div>
   );
 }
