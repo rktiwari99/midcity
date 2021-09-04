@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "f674b582301cc012dca8",
-    "url": "/midcity/static/js/main.5a467a48.chunk.js"
+    "revision": "0e1344a3da1d230ccfbe",
+    "url": "/midcity/static/js/main.dfc98dd4.chunk.js"
   },
   {
     "revision": "627bd785a8b2d2042f6d",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/midcity/static/js/3.d8bb4322.chunk.js"
   },
   {
-    "revision": "bf12e11aa2c5bcdee88abde6d5132c6d",
+    "revision": "dce99b410447d58a4c0cf9a894ac26b7",
     "url": "/midcity/index.html"
   }
 ];
